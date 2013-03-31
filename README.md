@@ -1,6 +1,6 @@
 Introduction
 -------------
-Custom built for Hotel Marietta in Obertauern, MStaff is an open source iOS application for the [WhenIWork.com Scheduling Software](http://wheniwork.com/) that supports multiple accounts  in addition to seeing which employee is actively on duty. The app also includes a directory of phone numbers within the company and the ability to check future and past weekly schedules.
+Custom built for Hotel Marietta in Obertauern, MStaff is an open source iOS application for the [WhenIWork.com Scheduling Software](http://wheniwork.com/) that supports multiple accounts  in addition to seeing which employee is actively on duty. The app also includes a directory of phone numbers within the company and the ability to check future and past schedules.
 
 ![Screenshot 1](https://raw.github.com/mmackh/MStaff/master/extras/1.png)
 ![Screenshot 2](https://raw.github.com/mmackh/MStaff/master/extras/2.png)
