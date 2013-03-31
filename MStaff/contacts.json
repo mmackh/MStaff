@@ -1,0 +1,76 @@
+{
+    "contacts": [
+                 {
+                 "number": 400,
+                 "name": "Wolfgang",
+                 "priority": true,
+                 "active": true
+                 },
+                 {
+                 "number": 401,
+                 "name": "Barbara",
+                 "priority": false,
+                 "active": true
+                 },
+                 {
+                 "number": 402,
+                 "name": "Giovanni",
+                 "priority": true,
+                 "active": true
+                 },
+                 {
+                 "number": 403,
+                 "name": "Slaven",
+                 "priority": false,
+                 "active": true
+                 },
+                 {
+                 "number": 404,
+                 "name": "Milena",
+                 "priority": false,
+                 "active": false
+                 },
+                 {
+                 "number": 405,
+                 "name": "Reception",
+                 "priority": false,
+                 "active": true
+                 },
+                 {
+                 "number": 406,
+                 "name": "Spa",
+                 "priority": false,
+                 "active": true
+                 },
+                 {
+                 "number": 407,
+                 "name": "Hausmeister",
+                 "priority": false,
+                 "active": false
+                 },
+                 {
+                 "number": 408,
+                 "name": "Goran",
+                 "priority": true,
+                 "active": true
+                 },
+                 {
+                 "number": 409,
+                 "name": "Stubenmädchen",
+                 "priority": false,
+                 "active": true
+                 },
+                 {
+                 "number": 410,
+                 "name": "Marin",
+                 "priority": false,
+                 "active": true
+                 },
+                 {
+                 "number": 411,
+                 "name": "Maximilian",
+                 "priority": true,
+                 "active": true
+                 }
+                 ]
+}
