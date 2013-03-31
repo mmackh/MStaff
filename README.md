@@ -9,7 +9,7 @@ Custom built for Hotel Marietta in Obertauern, MStaff is an open source iOS appl
 
 Requirements
 -------------
-1. Paid WhenIWork.com Account(s)
+1. Paid WhenIWork.com Account(s) (If you don't have one, please sign up with our referral link: <http://mbsy.co/bnyt>
 2. [API Key]("http://dev.wheniwork.com/")
 3. Add your API Key, Usernames & Passwords to PCWhenIWorkController.h
 4. Correct labeling of the tabs in the NavBar
