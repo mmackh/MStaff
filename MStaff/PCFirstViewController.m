@@ -49,9 +49,9 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
-
+    
     [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(adjustForDateCorrection) name:UIApplicationDidBecomeActiveNotification object:nil];
-
+    
     
     refreshControl = [[UIRefreshControl alloc] init];
     [refreshControl addTarget:self action:@selector(loadSchedule) forControlEvents:UIControlEventValueChanged];
@@ -75,7 +75,7 @@
 
 - (void)viewWillAppear:(BOOL)animated
 {
-    [self adjustForDateCorrection];
+    //[self adjustForDateCorrection];
 }
 
 - (void)adjustForDateCorrection
@@ -158,12 +158,12 @@
     
     if ([[dict objectForKey:@"active"] boolValue])
     {
-        [cell.lightOverlay setBackgroundColor:[UIColor colorWithRed:1.00f green:0.96f blue:0.45f alpha:0.20f]];
+        [cell setActive:YES];
         [cell.imageView setImage:[UIImage imageNamed:@"alert"]];
     }
     else
     {
-        [cell.lightOverlay setBackgroundColor:[UIColor clearColor]];
+        [cell setActive:NO];
         [cell.imageView setImage:nil];
     }
     
@@ -242,7 +242,7 @@
                 [_whenIWork loginOnBehalf:RequestByStaffCleaning];
             }
         }
-        break;
+            break;
     }
     
 }

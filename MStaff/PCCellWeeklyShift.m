@@ -18,6 +18,7 @@
         
         _lightOverlay = [[UIView alloc] initWithFrame:self.contentView.frame];
         [_lightOverlay setAutoresizingMask:UIViewAutoresizingFlexibleWidth];
+        [_lightOverlay setBackgroundColor:[UIColor colorWithRed:1.00f green:0.96f blue:0.45f alpha:0.20f]];
         [self.contentView addSubview:_lightOverlay];
         
         [self setSelectionStyle:UITableViewCellSelectionStyleNone];
@@ -30,8 +31,13 @@
 - (void)setSelected:(BOOL)selected animated:(BOOL)animated
 {
     [super setSelected:selected animated:animated];
-
+    
     // Configure the view for the selected state
+}
+
+- (void)setActive:(BOOL)active
+{
+    [_lightOverlay setHidden:!active];
 }
 
 @end

@@ -34,7 +34,7 @@
     
     self.tableView.backgroundView = bg;
     
-    [self.tableView registerClass:[PCCellWeeklyShift class] forCellReuseIdentifier:@"Cell"]; 
+    [self.tableView registerClass:[PCCellWeeklyShift class] forCellReuseIdentifier:@"Cell"];
 }
 
 - (void)viewDidAppear:(BOOL)animated
@@ -75,12 +75,12 @@
     
     if ([[dict objectForKey:@"active"] boolValue])
     {
-        [cell.lightOverlay setBackgroundColor:[UIColor colorWithRed:1.00f green:0.96f blue:0.45f alpha:0.20f]];
+        [cell setActive:YES];
         [cell.imageView setImage:[UIImage imageNamed:@"alert"]];
     }
     else
     {
-        [cell.lightOverlay setBackgroundColor:[UIColor clearColor]];
+        [cell setActive:NO];
         [cell.imageView setImage:nil];
     }
     

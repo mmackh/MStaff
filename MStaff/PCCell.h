@@ -12,4 +12,6 @@
 
 @property (strong, nonatomic) UIView* lightOverlay;
 
+- (void)setActive:(BOOL)active;
+
 @end
