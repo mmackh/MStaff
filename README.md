@@ -11,7 +11,7 @@ Requirements
 -------------
 1. Paid WhenIWork.com Account(s)
 2. [API Key]("http://dev.wheniwork.com/")
-3. Usernames & Passwords of Accounts
+3. Add your API Key, Usernames & Passwords to PCWhenIWorkController.h
 4. Correct labeling of the tabs in the NavBar
 
 Attribution
